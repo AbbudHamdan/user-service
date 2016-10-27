@@ -1,4 +1,4 @@
-package org.redischool;
+package org.redischool.user;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
