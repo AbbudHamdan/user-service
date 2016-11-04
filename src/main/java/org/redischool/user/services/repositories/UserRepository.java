@@ -1,5 +1,8 @@
 package org.redischool.user.services.repositories;
 
 
-public interface UserRepository {
+import org.redischool.user.model.User;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface UserRepository extends JpaRepository<User, String>{
 }
